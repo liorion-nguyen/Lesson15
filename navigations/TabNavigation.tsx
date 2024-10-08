@@ -14,7 +14,7 @@ export default function TabNavigation() {
                     if (route.name == "Home") {
                         iconName = focused ? 'home' : 'home-outline';
                     } else if (route.name == "Profile") {
-                        iconName = focused ? 'profile' : 'profile-outline';
+                        iconName = focused ? 'person' : 'person-outline';
                     } else if (route.name == "Search") {
                         iconName = focused ? 'search' : 'search-outline';
                     }
